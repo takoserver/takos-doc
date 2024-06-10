@@ -17,10 +17,8 @@ export default function Home() {
             <p class="text-lg md:text-xl text-gray-300">
               Your Chat, Your Server, Your Rules
             </p>
-            <p
-              class="hidden md:inline-block text-lg md:text-xl text-gray-300"
-              >
-            tako'sは、日本製の分散型チャットサービスです。軽量でシンプルな設計により、プライバシーとセキュリティを重視したチャット体験を提供します。
+            <p class="hidden md:inline-block text-lg md:text-xl text-gray-300">
+              tako'sは、日本製の分散型チャットサービスです。軽量でシンプルな設計により、プライバシーとセキュリティを重視したチャット体験を提供します。
             </p>
             <div class="flex justify-center gap-4">
               <a
@@ -181,7 +179,9 @@ export default function Home() {
                 style="aspect-ratio: 600 / 400; object-fit: cover;"
               />
               <div class="space-y-4">
-                <h3 class="text-2xl font-bold">独自チャットサービス特化型分散型プロトコル</h3>
+                <h3 class="text-2xl font-bold">
+                  独自チャットサービス特化型分散型プロトコル
+                </h3>
                 <p class="text-gray-500 dark:text-gray-400">
                   tako'sは、独自のチャットサービス特化型分散型プロトコルを採用しています。これにより、高速で安全なチャットを実現しています。
                 </p>
@@ -488,9 +488,11 @@ export default function Home() {
               </h3>
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div class="flex flex-col items-center justify-center space-y-2">
-                  <img src="https://camo.githubusercontent.com/f19a97a3e98b17f4c6a398d7b3341cb29495e5b5fddc5fa059c309b46b9dcb56/68747470733a2f2f66726573682e64656e6f2e6465762f6c6f676f2e737667"
-                  class="w-12"
-                  alt="" />
+                  <img
+                    src="https://camo.githubusercontent.com/f19a97a3e98b17f4c6a398d7b3341cb29495e5b5fddc5fa059c309b46b9dcb56/68747470733a2f2f66726573682e64656e6f2e6465762f6c6f676f2e737667"
+                    class="w-12"
+                    alt=""
+                  />
                   <h4 class="text-lg font-bold text-gray-50">Fresh</h4>
                   <p class="text-gray-500 dark:text-gray-400 text-center">
                     Freshは、高速なUIを提供するために設計された、新しいフロントエンドフレームワークです。
@@ -498,9 +500,11 @@ export default function Home() {
                   </p>
                 </div>
                 <div class="flex flex-col items-center justify-center space-y-2">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/1200px-Deno.svg.png"
-                  class="w-14"
-                  alt="" />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/1200px-Deno.svg.png"
+                    class="w-14"
+                    alt=""
+                  />
                   <h4 class="text-lg font-bold text-gray-50">Deno</h4>
                   <p class="text-gray-500 dark:text-gray-400 text-center">
                     Denoは、V8エンジンとRustによって構築された新しいランタイムです。
@@ -508,8 +512,27 @@ export default function Home() {
                   </p>
                 </div>
                 <div class="flex flex-col items-center justify-center space-y-2">
-                <svg viewBox="8.738 -5.03622834 17.45992422 39.40619484" class="w-10" xmlns="http://www.w3.org/2000/svg"><path d="m15.9.087.854 1.604c.192.296.4.558.645.802a22.406 22.406 0 0 1 2.004 2.266c1.447 1.9 2.423 4.01 3.12 6.292.418 1.394.645 2.824.662 4.27.07 4.323-1.412 8.035-4.4 11.12a12.7 12.7 0 0 1 -1.57 1.342c-.296 0-.436-.227-.558-.436a3.589 3.589 0 0 1 -.436-1.255c-.105-.523-.174-1.046-.14-1.586v-.244c-.024-.052-.285-24.052-.181-24.175z" fill="#599636"/><path d="m15.9.034c-.035-.07-.07-.017-.105.017.017.35-.105.662-.296.96-.21.296-.488.523-.767.767-1.55 1.342-2.77 2.963-3.747 4.776-1.3 2.44-1.97 5.055-2.16 7.808-.087.993.314 4.497.627 5.508.854 2.684 2.388 4.933 4.375 6.885.488.47 1.01.906 1.55 1.325.157 0 .174-.14.21-.244a4.78 4.78 0 0 0 .157-.68l.35-2.614z" fill="#6cac48"/><path d="m16.754 28.845c.035-.4.227-.732.436-1.063-.21-.087-.366-.26-.488-.453a3.235 3.235 0 0 1 -.26-.575c-.244-.732-.296-1.5-.366-2.248v-.453c-.087.07-.105.662-.105.75a17.37 17.37 0 0 1 -.314 2.353c-.052.314-.087.627-.28.906 0 .035 0 .07.017.122.314.924.4 1.865.453 2.824v.35c0 .418-.017.33.33.47.14.052.296.07.436.174.105 0 .122-.087.122-.157l-.052-.575v-1.604c-.017-.28.035-.558.07-.82z" fill="#c2bfbf"/></svg>
-                  <h4 class="text-lg font-bold text-gray-50">mongoose & redis</h4>
+                  <svg
+                    viewBox="8.738 -5.03622834 17.45992422 39.40619484"
+                    class="w-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m15.9.087.854 1.604c.192.296.4.558.645.802a22.406 22.406 0 0 1 2.004 2.266c1.447 1.9 2.423 4.01 3.12 6.292.418 1.394.645 2.824.662 4.27.07 4.323-1.412 8.035-4.4 11.12a12.7 12.7 0 0 1 -1.57 1.342c-.296 0-.436-.227-.558-.436a3.589 3.589 0 0 1 -.436-1.255c-.105-.523-.174-1.046-.14-1.586v-.244c-.024-.052-.285-24.052-.181-24.175z"
+                      fill="#599636"
+                    />
+                    <path
+                      d="m15.9.034c-.035-.07-.07-.017-.105.017.017.35-.105.662-.296.96-.21.296-.488.523-.767.767-1.55 1.342-2.77 2.963-3.747 4.776-1.3 2.44-1.97 5.055-2.16 7.808-.087.993.314 4.497.627 5.508.854 2.684 2.388 4.933 4.375 6.885.488.47 1.01.906 1.55 1.325.157 0 .174-.14.21-.244a4.78 4.78 0 0 0 .157-.68l.35-2.614z"
+                      fill="#6cac48"
+                    />
+                    <path
+                      d="m16.754 28.845c.035-.4.227-.732.436-1.063-.21-.087-.366-.26-.488-.453a3.235 3.235 0 0 1 -.26-.575c-.244-.732-.296-1.5-.366-2.248v-.453c-.087.07-.105.662-.105.75a17.37 17.37 0 0 1 -.314 2.353c-.052.314-.087.627-.28.906 0 .035 0 .07.017.122.314.924.4 1.865.453 2.824v.35c0 .418-.017.33.33.47.14.052.296.07.436.174.105 0 .122-.087.122-.157l-.052-.575v-1.604c-.017-.28.035-.558.07-.82z"
+                      fill="#c2bfbf"
+                    />
+                  </svg>
+                  <h4 class="text-lg font-bold text-gray-50">
+                    mongoose & redis
+                  </h4>
                   <p class="text-gray-500 dark:text-gray-400 text-center">
                     mongooseは、MongoDBのためのモデリングツールであり、redisは高速なキャッシュストアです。
                     これらの技術を使用することで、高速かつ安全なデータベースを実現しています。
