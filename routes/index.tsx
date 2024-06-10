@@ -23,7 +23,7 @@ export default function Home() {
             <div class="flex justify-center gap-4">
               <a
                 href="#"
-                class="inline-flex h-10 items-center justify-center rounded-md bg-[#00b894] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#00a185] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#00b894] disabled:pointer-events-none disabled:opacity-50"
+                class="inline-flex h-10 items-center justify-center rounded-md bg-green px-8 text-sm font-medium text-white shadow transition-colors hover:bg-[#00a185] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#00b894] disabled:pointer-events-none disabled:opacity-50"
               >
                 Get Started
               </a>
