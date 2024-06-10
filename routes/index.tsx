@@ -15,8 +15,12 @@ export default function Home() {
               tako's
             </h1>
             <p class="text-lg md:text-xl text-gray-300">
-              Your Chat, Your Server, Your Rules<br />
-              tako'sは、日本製の分散型チャットサービスです。軽量でシンプルな設計により、プライバシーとセキュリティを重視したチャット体験を提供します。
+              Your Chat, Your Server, Your Rules
+            </p>
+            <p
+              class="hidden md:inline-block text-lg md:text-xl text-gray-300"
+              >
+            tako'sは、日本製の分散型チャットサービスです。軽量でシンプルな設計により、プライバシーとセキュリティを重視したチャット体験を提供します。
             </p>
             <div class="flex justify-center gap-4">
               <a
