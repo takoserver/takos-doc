@@ -177,11 +177,9 @@ export default function Home() {
                 style="aspect-ratio: 600 / 400; object-fit: cover;"
               />
               <div class="space-y-4">
-                <h3 class="text-2xl font-bold">Enterprise-Grade Security</h3>
+                <h3 class="text-2xl font-bold">独自チャットサービス特化型分散型プロトコル</h3>
                 <p class="text-gray-500 dark:text-gray-400">
-                  Protect your data with our robust security features and
-                  compliance. Our platform is built with security in mind,
-                  ensuring your applications and data are safe.
+                  tako'sは、独自のチャットサービス特化型分散型プロトコルを採用しています。これにより、高速で安全なチャットを実現しています。
                 </p>
                 <a
                   href="#"
