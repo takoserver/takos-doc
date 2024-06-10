@@ -484,7 +484,7 @@ export default function Home() {
             </div>
             <div class="space-y-3">
               <h3 class="text-2xl font-bold tracking-tighter md:text-3xl/tight text-gray-50">
-                仕様技術
+                使用技術
               </h3>
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div class="flex flex-col items-center justify-center space-y-2">
