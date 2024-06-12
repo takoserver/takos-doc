@@ -120,7 +120,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 text-gray-50">
+        <section class="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 dark:text-gray-50">
           <div class="container grid gap-8 px-4 md:px-6 m-auto">
             <div class="grid md:grid-cols-2 gap-8 items-center">
               <img
@@ -198,7 +198,7 @@ export default function Home() {
         <section class="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 ">
           <div class="container grid items-center justify-center gap-4 px-4 md:px-6 text-center m-auto ">
             <div class="space-y-3">
-              <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight text-gray-50">
+              <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight dark:text-gray-50">
                 他社サービスとの比較
               </h2>
               <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -209,15 +209,15 @@ export default function Home() {
               <table class="w-full text-left">
                 <thead>
                   <tr class="bg-gray-100 dark:bg-gray-800">
-                    <th class="px-4 py-3 font-bold text-gray-50">Feature</th>
-                    <th class="px-4 py-3 font-bold text-gray-50">tako's</th>
-                    <th class="px-4 py-3 font-bold text-gray-50">L社</th>
-                    <th class="px-4 py-3 font-bold text-gray-50">D社</th>
+                    <th class="px-4 py-3 font-bold dark:text-gray-50">Feature</th>
+                    <th class="px-4 py-3 font-bold dark:text-gray-50">tako's</th>
+                    <th class="px-4 py-3 font-bold dark:text-gray-50">L社</th>
+                    <th class="px-4 py-3 font-bold dark:text-gray-50">D社</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <td class="px-4 py-3 text-gray-100">チャット機能</td>
+                    <td class="px-4 py-3 dark:text-gray-100">チャット機能</td>
                     <td class="px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +268,7 @@ export default function Home() {
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <td class="px-4 py-3 text-gray-100">高度なグループ機能</td>
+                    <td class="px-4 py-3 dark:text-gray-100">高度なグループ機能</td>
                     <td class="px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -320,7 +320,7 @@ export default function Home() {
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <td class="px-4 py-3 text-gray-100">
+                    <td class="px-4 py-3 dark:text-gray-100">
                       原則一人一アカウント
                     </td>
                     <td class="px-4 py-3">
@@ -375,7 +375,7 @@ export default function Home() {
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <td class="px-4 py-3 text-gray-100">分散型サービス</td>
+                    <td class="px-4 py-3 dark:text-gray-100">分散型サービス</td>
                     <td class="px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -428,7 +428,7 @@ export default function Home() {
                     </td>
                   </tr>
                   <tr class="border-b border-gray-200 dark:border-gray-700">
-                    <td class="px-4 py-3 text-gray-100">web版のサポート</td>
+                    <td class="px-4 py-3 dark:text-gray-100">web版のサポート</td>
                     <td class="px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -483,7 +483,7 @@ export default function Home() {
               </table>
             </div>
             <div class="space-y-3">
-              <h3 class="text-2xl font-bold tracking-tighter md:text-3xl/tight text-gray-50">
+              <h3 class="text-2xl font-bold tracking-tighter md:text-3xl/tight dark:text-gray-50">
                 使用技術
               </h3>
               <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -493,7 +493,7 @@ export default function Home() {
                     class="w-12"
                     alt=""
                   />
-                  <h4 class="text-lg font-bold text-gray-50">Fresh</h4>
+                  <h4 class="text-lg font-bold dark:text-gray-50">Fresh</h4>
                   <p class="text-gray-500 dark:text-gray-400 text-center">
                     Freshは、高速なUIを提供するために設計された、新しいフロントエンドフレームワークです。
                     tailwindcssと組み合わせることで、効率的な開発が可能です。
@@ -505,7 +505,7 @@ export default function Home() {
                     class="w-14"
                     alt=""
                   />
-                  <h4 class="text-lg font-bold text-gray-50">Deno</h4>
+                  <h4 class="text-lg font-bold dark:text-gray-50">Deno</h4>
                   <p class="text-gray-500 dark:text-gray-400 text-center">
                     Denoは、V8エンジンとRustによって構築された新しいランタイムです。
                     Node.jsよりも安全で高速な実行環境を提供します。
@@ -530,7 +530,7 @@ export default function Home() {
                       fill="#c2bfbf"
                     />
                   </svg>
-                  <h4 class="text-lg font-bold text-gray-50">
+                  <h4 class="text-lg font-bold dark:text-gray-50">
                     mongoose & redis
                   </h4>
                   <p class="text-gray-500 dark:text-gray-400 text-center">
