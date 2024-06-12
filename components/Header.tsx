@@ -14,7 +14,7 @@ const Contents1 = () => (
 //メモ: grid-cols-4は4個ずつ並べるという意味。増やすときは数字変える
 export default function Header() {
   return (
-    <header className="bg-gray-900 text-white py-4 px-6 hidden lg:block">
+    <header className="bg-gray-900 text-white py-4 px-6 hidden lg:block fixed z-[1000] top-0 left-0 right-0">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <span className="text-lg font-bold">tako's | takoserver</span>
