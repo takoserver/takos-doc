@@ -6,6 +6,10 @@ hero:
   name: "takos api document"
   text: Your Chat, Your Server, Your Rules
   tagline: 「シンプル、民主的、国産」を売りにしてるチャットアプリです。
+  image:
+    src: /logo.png
+    alt: log
+    
   actions:
     - theme: brand
       text: Get Start
@@ -19,6 +23,6 @@ features:
     details: islandsアーキテクチャを採用したFreshを使用しているため、高速なUIを実現しています。
   - title: 非中央集権
     details: あなたのデータはあなたのサーバーに保存されるため、プライバシーとセキュリティが保護されます。 また、災害時のリスク分散にも役立ちます。
-  - title: トークデータの暗号化
-    details: トークデータは暗号化されて保存されるため、安全なチャットを楽しむことができます。
+  - title: 優れたcommunity機能
+    details: さまざまな人とかかわることができます
 ---
