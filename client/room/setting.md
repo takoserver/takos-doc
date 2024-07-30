@@ -4,8 +4,6 @@
 
 #### Parameters
 
-※Form Data
-
 | Name      | Type   | Description | Required | Default |
 | --------- | ------ | ----------- | -------- | ------- |
 | roomId    | string | roomId      | true     |         |
