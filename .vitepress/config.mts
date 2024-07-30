@@ -21,6 +21,19 @@ export default defineConfig({
         ],
       },
       {
+        text: "takos api",
+        items: [
+          {
+            text: "Protocol",
+            link: "/server/protocol",
+            items: [
+              { text: "http", link: "/server/protocol/http" },
+              { text: "websocket", link: "/server/protocol/websocket" },
+            ],
+          }
+        ],
+      },
+      {
         text: "takos web api",
         items: [
           {
@@ -129,19 +142,6 @@ export default defineConfig({
             link: "/client/websocket",
             items: [],
           },
-        ],
-      },
-      {
-        text: "takos api",
-        items: [
-          {
-            text: "Protocol",
-            link: "/server/protocol",
-            items: [
-              { text: "http", link: "/server/protocol/http" },
-              { text: "websocket", link: "/server/protocol/websocket" },
-            ],
-          }
         ],
       },
     ],
