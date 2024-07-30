@@ -27,8 +27,7 @@ export default defineConfig({
             text: "Protocol",
             link: "/server/protocol",
             items: [
-              { text: "http", link: "/server/protocol/http" },
-              { text: "websocket", link: "/server/protocol/websocket" },
+              { text: "pubkey", link: "/server/protocol/pubkey" },
             ],
           }
         ],
