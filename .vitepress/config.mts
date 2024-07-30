@@ -133,7 +133,16 @@ export default defineConfig({
       },
       {
         text: "takos api",
-        items: [],
+        items: [
+          {
+            text: "Protocol",
+            link: "/server/protocol",
+            items: [
+              { text: "http", link: "/server/protocol/http" },
+              { text: "websocket", link: "/server/protocol/websocket" },
+            ],
+          }
+        ],
       },
     ],
     socialLinks: [
