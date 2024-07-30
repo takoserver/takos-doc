@@ -14,8 +14,8 @@ hero:
       text: Get Start
       link: /welcome
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: tako's jp
+      link: https://takos.jp
 
 features:
   - title: 高速なUI
