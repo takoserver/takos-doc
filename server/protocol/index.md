@@ -7,7 +7,7 @@ sslに加え、電子署名を使用して通信の信頼性を高めていま�
 
 ### 暗号化のソースコード
 ・暗号鍵生成
-```
+```typescript
 const generateKeyPair = async () => {
   const keyPair = await window.crypto.subtle.generateKey(
     {
@@ -21,24 +21,10 @@ const generateKeyPair = async () => {
   );
   return keyPair;
 };
-```
-・署名
-```
-  signData: async (data: string, privateKey: CryptoKey): Promise<ArrayBuffer> => {
-    const signAlgorithm = {
-      name: "RSASSA-PKCS1-v1_5",
-      hash: { name: "SHA-256" },
-    };
-    const signature = await window.crypto.subtle.sign(
-      signAlgorithm,
-      privateKey,
-      new TextEncoder().encode(data),
-    );
-    return signature;
-  },
+
 ```
 ・検証
-```
+```typescript
   verifySignature: async (publicKey: CryptoKey, signature: ArrayBuffer, data: string): Promise<boolean> => {
     const signAlgorithm = {
       name: "RSASSA-PKCS1-v1_5",
@@ -54,7 +40,7 @@ const generateKeyPair = async () => {
 ```
 
 ### リクエストbodyの内容
-```
+```typescript
 const body = {
     ....
 }
@@ -62,7 +48,7 @@ const body = {
 // request body
 {
     body: JSON.stringify(body),
-    signature: await signData(JSON.stringify(body), privateKey),
+    signature: await signData(JSON.stringify(body), getPrivateKey()),
     server: ${serverDomain},
 }
 ```
