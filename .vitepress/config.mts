@@ -59,7 +59,7 @@ export default defineConfig({
               { text: "request", link: "/client/friends/request" },
               { text: "accept", link: "/client/friends/accept" },
               { text: "delete", link: "/client/friends/delete" },
-              { text: "list", link: "/client/friends/list" },
+              { text: "requestList", link: "/client/friends/requestList" },
               { text: "search", link: "/client/friends/search " },
             ],
           },
