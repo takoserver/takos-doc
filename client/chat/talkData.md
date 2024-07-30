@@ -13,7 +13,9 @@
 | limit?  | string | 取得するメッセージ数(制限1-100)      | false    | 15      |
 
 #### Response
+
 ※textのみ取得 その他の形式は他のapiによって取得する
+
 ```
 {
     status: true,

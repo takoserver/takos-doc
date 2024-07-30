@@ -42,16 +42,7 @@ export default defineConfig({
               { text: "privacy", link: "/client/profile/privacy" },
             ],
           },
-          {
-            text: "othres",
-            link: "/client/othres",
-            items: [
-              { text: "bgimage", link: "/client/othres/bgimage" },
-              { text: "chart", link: "/client/othres/chart" },
-              { text: "csrftoken", link: "/client/othres/csrftoken" },
-              { text: " welcome", link: "/client/othres/welcome" },
-            ],
-          },
+
           {
             text: "sessions",
             link: "/client/sessions",
@@ -59,6 +50,17 @@ export default defineConfig({
               { text: "login", link: "/client/sessions/login" },
               { text: "logout", link: "/client/sessions/logout" },
               { text: "register", link: "/client/sessions/register" },
+            ],
+          },
+          {
+            text: "friends",
+            link: "/client/friends",
+            items: [
+              { text: "request", link: "/client/friends/request" },
+              { text: "accept", link: "/client/friends/accept" },
+              { text: "delete", link: "/client/friends/delete" },
+              { text: "list", link: "/client/friends/list" },
+              { text: "search", link: "/client/friends/search " },
             ],
           },
           {
@@ -110,6 +112,16 @@ export default defineConfig({
               { text: "community", link: "/client/block/community" },
               { text: "list", link: "/client/block/list" },
               { text: "server", link: "/client/block/server" },
+            ],
+          },
+          {
+            text: "othres",
+            link: "/client/othres",
+            items: [
+              { text: "bgimage", link: "/client/othres/bgimage" },
+              { text: "chart", link: "/client/othres/chart" },
+              { text: "csrftoken", link: "/client/othres/csrftoken" },
+              { text: " welcome", link: "/client/othres/welcome" },
             ],
           },
           {

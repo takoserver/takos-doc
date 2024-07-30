@@ -8,12 +8,24 @@
 | ------ | ------ | ----------- | -------- | ------- |
 | roomId | string | roomId      | true     |         |
 | query  | string | query       | true     |         |
+| limit  | number | limit       | false    | 10      |
 
 #### Response
 
 ```
 {
-    status: true
+    status: true,
+    messages: [
+        {
+            messageId: string,
+            roomId: string,
+            userId: string,
+            message?: string,
+            messageId: string,
+            type: string,
+            createdAt: string
+        }
+    ]
 }
 ```
 

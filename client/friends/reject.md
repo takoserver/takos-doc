@@ -1,6 +1,6 @@
-# 友達申請を承認する
+# 友達申請を拒否する
 
-### Endpoint: `POST /takos/v2/client/friends/accept`
+### Endpoint: `POST /takos/v2/client/friends/reject`
 
 #### Parameters
 
@@ -23,4 +23,4 @@
 
 #### Description
 
-ともだち申請を承認する
+友達申請を拒否する

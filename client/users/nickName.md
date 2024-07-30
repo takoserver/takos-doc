@@ -4,10 +4,10 @@
 
 #### Parameters
 
-| Name | Type   | Description                 | Required | Default |
-| ---- | ------ | --------------------------- | -------- | ------- |
-| [id] | string | userName                    | true     |         |
-| type | string | friend or room or friendkey | false    | friend  |
+| Name | Type   | Description                              | Required | Default |
+| ---- | ------ | ---------------------------------------- | -------- | ------- |
+| [id] | string | userName                                 | true     |         |
+| type | string | friend or room or friendkey or community | false    | friend  |
 
 ※[]はurl埋め込み
 
