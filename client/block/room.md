@@ -4,10 +4,10 @@
 
 ### Parameters
 
-| Name        | Type   | Description  | Required | Default |
-| ----------- | ------ | ------------ | -------- | ------- |
-| roomId      | string | roomId       | true     |         |
-| csrftoken   | string | csrftoken    | true     |         |
+| Name      | Type   | Description | Required | Default |
+| --------- | ------ | ----------- | -------- | ------- |
+| roomId    | string | roomId      | true     |         |
+| csrftoken | string | csrftoken   | true     |         |
 
 ### Response
 

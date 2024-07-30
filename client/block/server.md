@@ -4,10 +4,10 @@
 
 ### Parameters
 
-| Name        | Type   | Description  | Required | Default |
-| ----------- | ------ | ------------ | -------- | ------- |
-| domain      | string | domain       | true     |         |
-| csrftoken   | string | csrftoken    | true     |         |
+| Name      | Type   | Description | Required | Default |
+| --------- | ------ | ----------- | -------- | ------- |
+| domain    | string | domain      | true     |         |
+| csrftoken | string | csrftoken   | true     |         |
 
 ### Response
 

@@ -1,3 +1,12 @@
+---
+prev:
+    text: "setting"
+    link: "/client/room/setting"
+next:
+    text: "create"
+    link: "/client/community/create"
+---
+
 # Communityのapi
 
 ## Communityとは

@@ -10,7 +10,9 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Examples", link: "/markdown-examples" },
     ],
-
+    search: {
+      provider: "local",
+    },
     sidebar: [
       {
         text: "Getting Started",
@@ -96,6 +98,7 @@ export default defineConfig({
               { "text": "delete", link: "/client/chat/delete" },
               { "text": "list", link: "/client/chat/list" },
               { "text": "search", link: "/client/chat/search" },
+              { "text": "talkData", link: "/client/chat/talkData" },
             ],
           },
           {

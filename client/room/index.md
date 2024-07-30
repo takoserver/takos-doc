@@ -1,3 +1,12 @@
+---
+prev:
+    text: "register"
+    link: "/client/sessions/register"
+next:
+    text: "create"
+    link: "/client/room/create"
+---
+
 # roomのapi
 
 ## roomとは
