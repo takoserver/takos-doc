@@ -99,6 +99,17 @@ export default defineConfig({
             ],
           },
           {
+            text: "blcok",
+            link: "/client/block",
+            items: [
+              { text: "user", link: "/client/block/user" },
+              { text: "room", link: "/client/block/room" },
+              { text: "community", link: "/client/block/community" },
+              { text: "list", link: "/client/block/list" },
+              { text: "server", link: "/client/block/server" },
+            ],
+          },
+          {
             text: "websocket",
             link: "/client/websocket",
             items: [],

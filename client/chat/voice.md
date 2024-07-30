@@ -1,6 +1,6 @@
 # 音声メッセージを送信する
 
-### Endpoint: `POST /takos/v2/client/chat/audio`
+### Endpoint: `GET /takos/v2/client/chat/audio`
 
 #### Parameters
 
@@ -8,7 +8,8 @@
 
 | Name      | Type   | Description | Required | Default |
 | --------- | ------ | ----------- | -------- | ------- |
-| messageid | string | messageid   | true     |         |
+| roomId    | string | roomId      | true     |         |
+| audio     | string | file        | true     |         |
 | csrftoken | string | csrftoken   | true     |         |
 
 ※[]はurl埋め込み

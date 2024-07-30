@@ -33,7 +33,8 @@ Nothing
 
 ```
 {
-    status: true
+    status: true,
+    settings: object
 }
 ```
 
