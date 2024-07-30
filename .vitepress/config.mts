@@ -36,10 +36,13 @@ export default defineConfig({
             text: "Activity",
             link: "/server/activity",
             items: [
-              { text: "acceptFriendReqest", link: "/server/activity/acceptFriendReqest" },
+              {
+                text: "acceptFriendReqest",
+                link: "/server/activity/acceptFriendReqest",
+              },
               { text: "requestFriend", link: "/server/activity/requestFriend" },
             ],
-          }
+          },
         ],
       },
       {

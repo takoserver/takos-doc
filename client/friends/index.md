@@ -6,6 +6,7 @@ next:
     text: "request"
     link: "/client/friends/request"
 ---
+
 # 友達に関するapi
 
 ### このapiで次のことができます

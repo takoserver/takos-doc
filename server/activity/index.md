@@ -19,7 +19,7 @@
 
 ```javascript
 {
-    status: true
+  status: true;
 }
 ```
 

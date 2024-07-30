@@ -10,10 +10,11 @@ Nothing
 
 ```json
 {
-    "status": true,
-    "list": [
-        {
-            "friendName": "string"
-        }
-    ]
+  "status": true,
+  "list": [
+    {
+      "friendName": "string"
+    }
+  ]
 }
+```
