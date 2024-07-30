@@ -1,4 +1,4 @@
-# 音声メッセージを送信する
+# ファイルメッセージを送信
 
 ### Endpoint: `POST /takos/v2/client/chat/file`
 

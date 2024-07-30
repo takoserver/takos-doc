@@ -1,4 +1,4 @@
-# 音声メッセージを送信する
+# メッセージ削除
 
 ### Endpoint: `POST /takos/v2/client/chat/audio`
 

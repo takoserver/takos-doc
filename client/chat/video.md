@@ -1,4 +1,4 @@
-# 音声メッセージを送信する
+# 画像メッセージを送信する
 
 ### Endpoint: `POST /takos/v2/client/chat/video`
 

@@ -1,4 +1,4 @@
-# 音声メッセージを送信する
+# メッセージの検索
 
 ### Endpoint: `GET /takos/v2/client/chat/search`
 

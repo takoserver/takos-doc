@@ -1,3 +1,5 @@
+# テキストメッセージ送信
+
 ### Endpoint: `POST /takos/v2/client/chat/text`
 
 #### Parameters
