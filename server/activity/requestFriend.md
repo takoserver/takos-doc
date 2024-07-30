@@ -1,4 +1,4 @@
-# Objectを承認するObject
+# 友達リクエスト承認object
 
 ### request format
 

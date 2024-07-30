@@ -8,7 +8,7 @@
 {
     type: string,
     objectid: string,
-    data: any
+    object: any
 }
 
 // objectid format
