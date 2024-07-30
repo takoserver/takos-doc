@@ -6,9 +6,7 @@ takosは分散型のAPIを提供しています。このAPIは暗号化通信を
 sslに加え、電子署名を使用して通信の信頼性を高めています。
 
 ### 暗号化のソースコード
-
 ・暗号鍵生成
-
 ```typescript
 const generateKeyPair = async () => {
   const keyPair = await window.crypto.subtle.generateKey(
@@ -24,26 +22,39 @@ const generateKeyPair = async () => {
   return keyPair;
 };
 ```
+・署名
+```typescript
+  signData: async (data: string, privateKey: CryptoKey): Promise<ArrayBuffer> => {
+    const signAlgorithm = {
+      name: "RSASSA-PKCS1-v1_5",
+      hash: { name: "SHA-256" },
+    };
+    const signature = await window.crypto.subtle.sign(
+      signAlgorithm,
+      privateKey,
+      new TextEncoder().encode(data),
+    );
+    return signature;
+  },
+```
 
 ・検証
-
 ```typescript
-verifySignature: async (publicKey: CryptoKey, signature: ArrayBuffer, data: string): Promise<boolean> => {
-  const signAlgorithm = {
-    name: "RSASSA-PKCS1-v1_5",
-    hash: { name: "SHA-256" },
-  };
-  return await window.crypto.subtle.verify(
-    signAlgorithm,
-    publicKey,
-    signature,
-    new TextEncoder().encode(data),
-  );
-},
+  verifySignature: async (publicKey: CryptoKey, signature: ArrayBuffer, data: string): Promise<boolean> => {
+    const signAlgorithm = {
+      name: "RSASSA-PKCS1-v1_5",
+      hash: { name: "SHA-256" },
+    };
+    return await window.crypto.subtle.verify(
+      signAlgorithm,
+      publicKey,
+      signature,
+      new TextEncoder().encode(data),
+    );
+  },
 ```
 
 ### リクエストbodyの内容
-
 ```typescript
 const body = {
     ....
