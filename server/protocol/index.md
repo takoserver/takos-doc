@@ -53,6 +53,20 @@ const generateKeyPair = async () => {
   },
 ```
 
+### リクエストbodyの内容
+```
+const body = {
+    ....
+}
+
+// request body
+{
+    body: JSON.stringify(body),
+    signature: await signData(JSON.stringify(body), privateKey),
+    server: ${serverDomain},
+}
+```
+
 ### 電子署名の流れ
 
 1. リクエスト元サーバーは秘密鍵でリクエストを署名します。
