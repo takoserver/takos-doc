@@ -76,7 +76,7 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
-  base: "/takos-doc/",
+  base: "/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ]
