@@ -63,9 +63,6 @@ export default defineConfig({
             text: "websocket",
             link: "/client/websocket",
             items: [
-              { text: "chat", link: "/client/websocket/chat" },
-              { text: "notification", link: "/client/websocket/notification" },
-              { text: "read", link: "/client/websocket/read" },
             ],
           }
         ],
