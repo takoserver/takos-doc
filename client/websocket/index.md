@@ -62,11 +62,11 @@
 
 ```json
 {
-    "type": "friendMessage",
-    "message": "メッセージ内容",
-    "userName": "ユーザー名",
-    "messageid": "メッセージID",
-    "time": "日時"
+  "type": "friendMessage",
+  "message": "メッセージ内容",
+  "userName": "ユーザー名",
+  "messageid": "メッセージID",
+  "time": "日時"
 }
 ```
 
@@ -74,11 +74,11 @@
 
 ```json
 {
-    "type": "roomMessage",
-    "message": "メッセージ内容",
-    "userName": "ユーザー名",
-    "messageid": "メッセージID",
-    "time": "日時"
+  "type": "roomMessage",
+  "message": "メッセージ内容",
+  "userName": "ユーザー名",
+  "messageid": "メッセージID",
+  "time": "日時"
 }
 ```
 
@@ -86,9 +86,9 @@
 
 ```json
 {
-    "type": "friendRead",
-    "friendid": "友達のID",
-    "messageid": "メッセージID"
+  "type": "friendRead",
+  "friendid": "友達のID",
+  "messageid": "メッセージID"
 }
 ```
 
@@ -96,9 +96,9 @@
 
 ```json
 {
-    "type": "roomRead",
-    "roomid": "ルームのID",
-    "messageid": "メッセージID"
+  "type": "roomRead",
+  "roomid": "ルームのID",
+  "messageid": "メッセージID"
 }
 ```
 
@@ -106,8 +106,8 @@
 
 ```json
 {
-    "type": "notification",
-    "message": "通知内容",
-    "link": "リンク"
+  "type": "notification",
+  "message": "通知内容",
+  "link": "リンク"
 }
 ```

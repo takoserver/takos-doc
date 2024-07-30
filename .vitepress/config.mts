@@ -16,7 +16,7 @@ export default defineConfig({
         text: "Getting Started",
         items: [
           { text: "quick-start", link: "/welcome" },
-        ]
+        ],
       },
       {
         text: "takos web api",
@@ -60,11 +60,35 @@ export default defineConfig({
             ],
           },
           {
+            text: "room",
+            link: "/client/room",
+            items: [
+              { "text": "create", link: "/client/room/create" },
+              { "text": "delete", link: "/client/room/delete" },
+              { "text": "join", link: "/client/room/join" },
+              { "text": "invite", link: "/client/room/invite" },
+              { "text": "leave", link: "/client/room/leave" },
+              { "text": "setting", link: "/client/room/setting" },
+            ],
+          },
+          {
+            text: "community",
+            link: "/client/community",
+            items: [
+              { "text": "create", link: "/client/community/create" },
+              { "text": "delete", link: "/client/community/delete" },
+              { "text": "join", link: "/client/community/join" },
+              { "text": "invite", link: "/client/community/invite" },
+              { "text": "leave", link: "/client/community/leave" },
+              { "text": "setting", link: "/client/community/setting" },
+              { "text": "search", link: "/client/community/search" },
+            ],
+          },
+          {
             text: "websocket",
             link: "/client/websocket",
-            items: [
-            ],
-          }
+            items: [],
+          },
         ],
       },
       {
@@ -78,6 +102,6 @@ export default defineConfig({
   },
   base: "/",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ]
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+  ],
 });
