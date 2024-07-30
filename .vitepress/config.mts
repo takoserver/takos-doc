@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "takos api document",
   description: "takosのapiのドキュメントです",
+  lang: "ja-JP",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -26,6 +27,7 @@ export default defineConfig({
           {
             text: "Protocol",
             link: "/server/protocol",
+            collapsed: false,
             items: [
               { text: "pubkey", link: "/server/protocol/pubkey" },
               { text: "info", link: "/server/protocol/info" },
@@ -35,6 +37,7 @@ export default defineConfig({
           {
             text: "Activity",
             link: "/server/activity",
+            collapsed: false,
             items: [
               {
                 text: "acceptFriendReqest",
@@ -52,6 +55,7 @@ export default defineConfig({
           {
             text: "users",
             link: "/client/users",
+            collapsed: false,
             items: [
               { text: "icon", link: "/client/users/icon" },
               { text: "userName", link: "/client/users/userName" },
@@ -61,6 +65,7 @@ export default defineConfig({
           {
             text: "profile",
             link: "/client/profile",
+            collapsed: false,
             items: [
               { text: "icon", link: "/client/profile/icon" },
               { text: "userName", link: "/client/profile/userName" },
@@ -72,6 +77,7 @@ export default defineConfig({
           {
             text: "sessions",
             link: "/client/sessions",
+            collapsed: false,
             items: [
               { text: "login", link: "/client/sessions/login" },
               { text: "logout", link: "/client/sessions/logout" },
@@ -81,6 +87,7 @@ export default defineConfig({
           {
             text: "friends",
             link: "/client/friends",
+            collapsed: false,
             items: [
               { text: "request", link: "/client/friends/request" },
               { text: "accept", link: "/client/friends/accept" },
@@ -92,6 +99,7 @@ export default defineConfig({
           {
             text: "room",
             link: "/client/room",
+            collapsed: false,
             items: [
               { "text": "create", link: "/client/room/create" },
               { "text": "delete", link: "/client/room/delete" },
@@ -104,6 +112,7 @@ export default defineConfig({
           {
             text: "community",
             link: "/client/community",
+            collapsed: false,
             items: [
               { "text": "create", link: "/client/community/create" },
               { "text": "delete", link: "/client/community/delete" },
@@ -117,6 +126,7 @@ export default defineConfig({
           {
             text: "chat",
             link: "/client/chat",
+            collapsed: false,
             items: [
               { "text": "text", link: "/client/chat/text" },
               { "text": "image", link: "/client/chat/image" },
@@ -132,6 +142,7 @@ export default defineConfig({
           {
             text: "blcok",
             link: "/client/block",
+            collapsed: false,
             items: [
               { text: "user", link: "/client/block/user" },
               { text: "room", link: "/client/block/room" },
@@ -143,6 +154,7 @@ export default defineConfig({
           {
             text: "othres",
             link: "/client/othres",
+            collapsed: false,
             items: [
               { text: "bgimage", link: "/client/othres/bgimage" },
               { text: "chart", link: "/client/othres/chart" },
