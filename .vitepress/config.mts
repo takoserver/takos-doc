@@ -13,6 +13,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "Getting Started",
+        items: [
+          { text: "quick-start", link: "/welcome" },
+        ]
+      },
+      {
         text: "takos web api",
         items: [
           {
@@ -24,14 +30,44 @@ export default defineConfig({
               { text: "nickName", link: "/client/users/nickName" },
             ],
           },
-          { text: "profile", link: "/client/profile",
+          {
+            text: "profile",
+            link: "/client/profile",
             items: [
               { text: "icon", link: "/client/profile/icon" },
               { text: "userName", link: "/client/profile/userName" },
               { text: "nickName", link: "/client/profile/nickName" },
               { text: "privacy", link: "/client/profile/privacy" },
             ],
-           },
+          },
+          {
+            text: "othres",
+            link: "/client/othres",
+            items: [
+              { text: "bgimage", link: "/client/othres/bgimage" },
+              { text: "chart", link: "/client/othres/chart" },
+              { text: "csrftoken", link: "/client/othres/csrftoken" },
+              { text: " welcome", link: "/client/othres/welcome" },
+            ],
+          },
+          {
+            text: "sessions",
+            link: "/client/sessions",
+            items: [
+              { text: "login", link: "/client/sessions/login" },
+              { text: "logout", link: "/client/sessions/logout" },
+              { text: "register", link: "/client/sessions/register" },
+            ],
+          },
+          {
+            text: "websocket",
+            link: "/client/websocket",
+            items: [
+              { text: "chat", link: "/client/websocket/chat" },
+              { text: "notification", link: "/client/websocket/notification" },
+              { text: "read", link: "/client/websocket/read" },
+            ],
+          }
         ],
       },
       {
@@ -39,10 +75,12 @@ export default defineConfig({
         items: [],
       },
     ],
-
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
-  base: "/docs/",
+  base: "/",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ]
 });

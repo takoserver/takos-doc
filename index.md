@@ -4,21 +4,21 @@ layout: home
 
 hero:
   name: "takos api document"
-  text: "takosのapiのドキュメントです"
-  tagline: My great project tagline
+  text: Your Chat, Your Server, Your Rules
+  tagline: 「シンプル、民主的、国産」を売りにしてるチャットアプリです。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Start
+      link: /welcome
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 高速なUI
+    details: islandsアーキテクチャを採用したFreshを使用しているため、高速なUIを実現しています。
+  - title: 非中央集権
+    details: あなたのデータはあなたのサーバーに保存されるため、プライバシーとセキュリティが保護されます。 また、災害時のリスク分散にも役立ちます。
+  - title: トークデータの暗号化
+    details: トークデータは暗号化されて保存されるため、安全なチャットを楽しむことができます。
 ---

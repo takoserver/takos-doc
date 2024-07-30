@@ -13,9 +13,13 @@
 
 #### Response
 
-- Content-Type: `image/jpeg`
-- Response Body: ユーザーのアイコン画像
+```
+{
+    userName: string,
+    status: true
+}
+```
 
 #### Description
 
-ユーザーのアイコン画像を取得します。
+ユーザーネームを取得

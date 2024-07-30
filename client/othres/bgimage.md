@@ -1,7 +1,7 @@
 ### Endpoint
 
 ```
-GET /takos/client/bgimage
+GET /takos/client/v2/bgimage
 ```
 
 ### Parameters
