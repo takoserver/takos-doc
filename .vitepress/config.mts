@@ -41,6 +41,7 @@ export default defineConfig({
                 link: "/server/activity/acceptFriendReqest",
               },
               { text: "requestFriend", link: "/server/activity/requestFriend" },
+              { text: "sendFriendMessage", link: "/server/activity/sendFriendMessage" },
             ],
           },
         ],
