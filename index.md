@@ -9,7 +9,6 @@ hero:
   image:
     src: /logo.png
     alt: log
-    
   actions:
     - theme: brand
       text: Get Start
@@ -26,3 +25,5 @@ features:
   - title: 優れたcommunity機能
     details: さまざまな人とかかわることができます
 ---
+
+
