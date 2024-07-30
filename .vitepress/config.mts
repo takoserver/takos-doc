@@ -31,6 +31,14 @@ export default defineConfig({
               { text: "info", link: "/server/protocol/info" },
               { text: "ping", link: "/server/protocol/ping" },
             ],
+          },
+          {
+            text: "Activity",
+            link: "/server/activity",
+            items: [
+              { text: "accept", link: "/server/activity/accept" },
+              { text: "requestFriend", link: "/server/activity/requestFriend" },
+            ],
           }
         ],
       },
