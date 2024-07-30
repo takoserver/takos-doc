@@ -85,6 +85,20 @@ export default defineConfig({
             ],
           },
           {
+            text: "chat",
+            link: "/client/chat",
+            items: [
+              { "text": "text", link: "/client/chat/text" },
+              { "text": "image", link: "/client/chat/image" },
+              { "text": "file", link: "/client/chat/file" },
+              { "text": "voice", link: "/client/chat/voice" },
+              { "text": "video", link: "/client/chat/video" },
+              { "text": "delete", link: "/client/chat/delete" },
+              { "text": "list", link: "/client/chat/list" },
+              { "text": "search", link: "/client/chat/search" },
+            ],
+          },
+          {
             text: "websocket",
             link: "/client/websocket",
             items: [],
