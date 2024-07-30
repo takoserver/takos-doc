@@ -28,6 +28,8 @@ export default defineConfig({
             link: "/server/protocol",
             items: [
               { text: "pubkey", link: "/server/protocol/pubkey" },
+              { text: "info", link: "/server/protocol/info" },
+              { text: "ping", link: "/server/protocol/ping" },
             ],
           }
         ],
